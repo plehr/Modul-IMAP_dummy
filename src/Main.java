@@ -15,7 +15,7 @@ public class Main {
 	public static void start() {
 		System.out.println("test");
 		IMAP mail = new IMAP();
-		mail.start("imap.gmx.net", "user@host.de", "12345");
+		mail.start("imap.server.tld", "user@host", "passwrd");
 		
 		List<String> von = mail.getAusgabearray_von();
 		List<String> datum = mail.getAusgabearray_datum();
